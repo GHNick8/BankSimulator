@@ -1,0 +1,1 @@
+import{Ba as n}from"./chunk-MX4I3CJ5.js";var i=class r{transform(t,e="EUR"){return new Intl.NumberFormat(void 0,{style:"currency",currency:e}).format(t)}static \u0275fac=function(e){return new(e||r)};static \u0275pipe=n({name:"money",type:r,pure:!0})};export{i as a};

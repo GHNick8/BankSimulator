@@ -1,0 +1,1 @@
+import"./chunk-7CGTOI24.js";var t=[{path:"",loadComponent:()=>import("./chunk-RQ54Q4B6.js").then(o=>o.AccountsComponent)},{path:":id",loadComponent:()=>import("./chunk-W5WSQVJX.js").then(o=>o.AccountDetailComponent)}];export{t as ACCOUNT_ROUTES};
