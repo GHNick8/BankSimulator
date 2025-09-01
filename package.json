@@ -2,6 +2,9 @@
   "name": "ng-bank-sim",
   "version": "0.0.0",
   "scripts": {
+    "predeploy": "ng build --configuration production",
+    "postbuild": "node copy-index-to-404.js",
+    "deploy": "gh-pages -d dist/ng-bank-sim",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
