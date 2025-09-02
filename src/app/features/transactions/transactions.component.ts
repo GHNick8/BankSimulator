@@ -41,9 +41,11 @@ import { AuthService } from '../../core/services/auth.service';
   styles: [`
     .filters {
       display: flex;
+      flex-direction: column;
       gap: .75rem;
       flex-wrap: wrap;
       margin-bottom: 1rem;
+      max-width: 250px;
     }
 
     label {
